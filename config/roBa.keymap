@@ -152,8 +152,6 @@
 &trans          &trans       &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp SINGLE_QUOTE   &trans      &trans   &kp LS(NUMBER_6)  &kp LS(NUMBER_2)  &kp COMMA         &kp PERIOD           &kp LEFT_BRACKET
 &kp LEFT_SHIFT  &trans       &trans                 &kp LC(PG_UP)      &kp LC(PAGE_DOWN)  &trans      &kp DEL  &trans                                                                     &trans
             >;
-
-            >;
         };
 
         SCROLL {
