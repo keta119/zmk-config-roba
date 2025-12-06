@@ -159,7 +159,7 @@
 &lt 6 Q         &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I   &kp O     &kp P
 &kp A           &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K     &kp L     &lt 5 MINUS
 &kp Z           &kp X         &kp C         &kp V                        &kp B        &kp LEFT_CONTROL                   &kp LEFT_SHIFT  &kp N        &kp M  &mkp MB1  &mkp MB2  &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &lt 5 LANG2                  &lt 4 SPACE  &lt 3 LANG                        &lt 3 BACKSPACE  &lt 4 ENTER                            &kp RCTRL
+&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &lt 5 LANG2                  &lt 4 SPACE  &lt 3 LANG1                        &lt 3 BACKSPACE  &lt 4 ENTER                            &kp RCTRL
             >;
         };
 
