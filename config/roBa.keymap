@@ -63,6 +63,69 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+        icloud: icloud {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp LS(F) &kp I &kp R &kp E &kp LS(NUMBER_2) &kp KP_NUMBER_1 &kp KP_NUMBER_1 &kp N9 &kp LS(NUMBER_2) &kp LS(N8) &kp K &kp E &kp T &kp LS(A) &kp LS(N9) &kp RET>;
+            label = "ICLOUD";
+        };
+
+        LOGIN: LOGIN {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG2 &kp KP_NUMBER_5 &kp KP_NUMBER_1 &kp KP_NUMBER_6 &kp LS(F) &kp I &kp R &kp E &kp LBKT &kp ENTER>;
+            label = "LOGIN";
+        };
+
+        SHOKUIN: SHOKUIN {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp F &kp I &kp M &kp S &kp KP_NUMBER_2 &kp KP_NUMBER_4 &kp KP_NUMBER_1 &kp KP_NUMBER_7 &kp RET>;
+            label = "SHOKUIN";
+        };
+
+        KOUSEI: KOUSEI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp S &kp T &kp S &kp H &kp KP_NUMBER_5 &kp KP_NUMBER_0 &kp KP_NUMBER_5 &kp KP_NUMBER_8 &kp RET>;
+            label = "KOUSEI";
+        };
+
+        MENKYO: MENKYO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp M &kp E &kp N &kp K &kp Y &kp O &kp RET>;
+            label = "MENKYO";
+        };
+
+        ADDTIMEDATE: ADDTIMEDATE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp KP_SLASH &kp KP_SLASH &kp KP_DIVIDE &kp KP_SLASH &kp KP_DIVIDE &kp KP_DIVIDE &kp KP_DIVIDE &kp KP_DIVIDE &kp KP_DIVIDE &kp F5 &kp KP_DIVIDE &kp KP_DIVIDE &kp KP_DIVIDE &kp KP_DIVIDE &kp KP_DIVIDE &kp KP_DIVIDE &kp KP_DIVIDE &kp KP_DIVIDE &kp KP_DIVIDE>;
+            label = "ADDTIMEDATE";
+        };
+
+        kakko: kakko {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_1 &kp LS(N8) &kp LS(N9) &kp LEFT>;
+            label = "KAKKO";
+        };
+
+        kagikakko: kagikakko {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_1 &kp RIGHT_BRACKET &kp BACKSLASH &kp LEFT>;
+            label = "KAGIKAKKO";
+        };
+
+        Fire119: Fire119 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp LS(F) &kp I &kp R &kp E &kp NUMBER_1 &kp KP_NUMBER_1 &kp N9 &kp MINUS &kp RET>;
+            label = "FIRE119";
+        };
+
     };
 
     behaviors {
